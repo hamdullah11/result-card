@@ -90,3 +90,21 @@ p {
   color: white;
   border: 0px;
 }
+
+@media screen and (max-width: 900px) {
+  .card {
+    min-width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    min-width: 100%;
+    height: 100vh;
+  }
+  .card .left,
+  .card .right {
+    width: 100%;
+    gap: 0px;
+  }
+}
