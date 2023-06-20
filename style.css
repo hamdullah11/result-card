@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 60%;
+  min-height: 500px;
+  background-color: white;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #bebdbd;
+  display: flex;
+}
+.card .left,
+.card .right {
+  width: 50%;
+}
+p {
+  font-size: 18px;
+}
+.card .left {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.circle {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle p,
+.circle h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.bottom-text {
+  text-align: center;
+}
+.right {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.right h3 {
+  color: black;
+}
+.element {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+.continue-btn {
+  width: 85%;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 70px;
+  background-color: #303b59;
+  color: white;
+  border: 0px;
+}
